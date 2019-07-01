@@ -73,5 +73,11 @@ pre
   color            : #ffffff;
 }
 
+body,
+a
+{
+  color : #000000;
+}
+
 
 /* Generated with Clay, http://fvisser.nl/clay */

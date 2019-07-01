@@ -64,6 +64,7 @@ indexHtml =
           (fold
             [ H.h1 "It's Happy Hour"
             , H.p "Time to hit the bar (chart)."
+            , H.p ((H.a ! A.href "https://github.com/typeclasses/happy-hour/") "github.com/typeclasses/happy-hour")
             , H.h2 "Easy as one, two, three"
             , H.pre (H.code (H.text (Data.Text.unlines
                 [ "writeBarGraphSvgFile \"one-two-three.svg\""
@@ -135,6 +136,7 @@ style =
         fold
           [ C.body ? C.backgroundColor (C.rgb 0xf2 0xdd 0xb4)
           , C.pre ? C.backgroundColor (C.rgb 0x48 0x2d 0x48) <> C.color C.white
+          , (C.body <> C.a) ? C.color C.black
           ]
 
     codeBlockScrolling =
