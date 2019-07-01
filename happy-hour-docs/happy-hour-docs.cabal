@@ -2,6 +2,14 @@ cabal-version: 2.4
 
 name: happy-hour-docs
 version: 0
+category: Graphics
+synopsis: Generates the documentation for happy-hour
+
+description:
+    Generates the documentation for the happy-hour package.
+    The generated files are included in the source repo and
+    hosted via GitHub Pages:
+    <https://typeclasses.github.io/happy-hour/>
 
 tested-with: GHC==8.6.3
 
