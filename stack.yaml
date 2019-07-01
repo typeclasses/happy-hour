@@ -1,0 +1,8 @@
+{ "resolver": "lts-13.17"
+, "packages": ["happy-hour", "happy-hour-docs"]
+, "extra-deps":
+    [ "Chart-1.9.1"
+    , "Chart-diagrams-1.9.2"
+    , "diagrams-postscript-1.4.1"
+    ]
+}

@@ -1,1 +1,10 @@
-<html lang="en"><head><meta charset="utf-8"><title>Happy Hour</title><meta content="@typeclasses" name="twitter:site"></head><body><p>Behold!</p><img src="one-two-three.svg"></body></html>
+<html lang="en"><head><meta charset="utf-8"><title>Happy Hour</title><meta content="@typeclasses" name="twitter:site"><link href="style.css" rel="stylesheet"></head><body><main><h1>It&#39;s Happy Hour</h1><p>Time to hit the bar (chart).</p><h2>Easy as one, two, three</h2><pre><code>writeBarGraphSvgFile &quot;one-two-three.svg&quot;
+    [(&quot;One&quot;, 1), (&quot;Two&quot;, 2), (&quot;Three&quot;, 3)]
+</code></pre><img src="figures/one-two-three.svg" style="height:200px"><h2>Going negative</h2><pre><code>writeBarGraphSvgFile &quot;negative.svg&quot;
+    [(&quot;One&quot;, 1), (&quot;Negative two&quot;, (-2)), (&quot;Three&quot;, 3)]
+</code></pre><img src="figures/negative.svg" style="height:200px"><h2>Many bars</h2><pre><code>writeBarGraphSvgFile &quot;many.svg&quot;
+    (zip (map pure (enumFromTo &#39;a&#39; &#39;z&#39;)) (enumFrom 1))
+</code></pre><img src="figures/many.svg" style="height:250px"><h2>So, so many bars</h2><pre><code>writeBarGraphSvgFile &quot;many-many.svg&quot;
+    [ (show i, round (sin @Double (fromInteger i) * 100))
+    | i &lt;- enumFromTo 1 100 ]
+</code></pre><img src="figures/many-many.svg"></main></body></html>

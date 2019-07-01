@@ -1,0 +1,77 @@
+
+body
+{
+  padding-top    : 50px;
+  padding-bottom : 150px;
+}
+
+main
+{
+  max-width    : 800px;
+  display      : block;
+  margin-left  : auto;
+  margin-right : auto;
+}
+
+img
+{
+  max-width          : 100%;
+  -webkit-box-shadow : 0px 0px 20px -10px #000000;
+  -moz-box-shadow    : 0px 0px 20px -10px #000000;
+  -ms-box-shadow     : 0px 0px 20px -10px #000000;
+  -o-box-shadow      : 0px 0px 20px -10px #000000;
+  box-shadow         : 0px 0px 20px -10px #000000;
+}
+
+pre
+{
+  border-radius      : 10px 10px 10px 10px;
+  font-size          : 16px;
+  -webkit-box-shadow : 0px 0px 20px -10px #000000;
+  -moz-box-shadow    : 0px 0px 20px -10px #000000;
+  -ms-box-shadow     : 0px 0px 20px -10px #000000;
+  -o-box-shadow      : 0px 0px 20px -10px #000000;
+  box-shadow         : 0px 0px 20px -10px #000000;
+}
+
+h2
+{
+  margin-top : 100px;
+}
+
+pre
+{
+  overflow-x : auto;
+}
+
+pre code
+{
+  display : inline-block;
+}
+
+pre
+{
+  padding-top    : 20px;
+  padding-bottom : 20px;
+}
+
+pre code
+{
+  padding-left  : 30px;
+  padding-right : 30px;
+  line-height   : 1.6;
+}
+
+body
+{
+  background-color : #f2ddb4;
+}
+
+pre
+{
+  background-color : #482d48;
+  color            : #ffffff;
+}
+
+
+/* Generated with Clay, http://fvisser.nl/clay */

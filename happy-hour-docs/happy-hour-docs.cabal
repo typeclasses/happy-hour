@@ -1,0 +1,25 @@
+cabal-version: 2.4
+
+name: happy-hour-docs
+version: 0
+
+tested-with: GHC==8.6.3
+
+copyright: 2019 Typeclass Consulting, LLC
+license: MIT
+license-file: license.txt
+
+executable happy-hour-docs
+    hs-source-dirs: .
+    main-is: happy-hour-docs.hs
+    default-language: Haskell2010
+
+    build-depends:
+        async ^>= 2.2.1
+      , base ^>= 4.12.0.0
+      , blaze-html ^>= 0.9.1.1
+      , blaze-markup ^>= 0.8.2.2
+      , bytestring ^>= 0.10.8.2
+      , clay ^>= 0.13.1
+      , happy-hour
+      , text ^>= 1.2.3.1
