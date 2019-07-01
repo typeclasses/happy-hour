@@ -17,6 +17,12 @@ copyright: 2019 Typeclass Consulting, LLC
 license: MIT
 license-file: license.txt
 
+homepage:    https://github.com/typeclasses/happy-hour
+bug-reports: https://github.com/typeclasses/happy-hour/issues
+
+author:     Chris Martin
+maintainer: Chris Martin, Julie Moronuki
+
 executable happy-hour-docs
     hs-source-dirs: .
     main-is: happy-hour-docs.hs
