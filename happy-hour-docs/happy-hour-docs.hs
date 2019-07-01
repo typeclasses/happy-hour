@@ -31,7 +31,7 @@ import qualified Text.Blaze.Renderer.Utf8
 -- clay
 import qualified Clay as C
 import qualified Clay.Render
-import Clay (Css, (?), (|>))
+import Clay (Css, (?))
 
 main :: IO ()
 main =
