@@ -64,7 +64,7 @@ indexHtml =
           (fold
             [ H.h1 "It's Happy Hour"
             , H.p "Time to hit the bar (chart)."
-            , H.p ((H.a ! A.href "https://github.com/typeclasses/happy-hour/") "github.com/typeclasses/happy-hour")
+            , H.p (linkToGitHub "github.com/typeclasses/happy-hour")
             , H.h2 "Easy as one, two, three"
             , H.pre (H.code (H.text (Data.Text.unlines
                 [ "writeBarGraphSvgFile \"one-two-three.svg\""
@@ -90,6 +90,8 @@ indexHtml =
                 , "    | i <- enumFromTo 1 100 ]"
                 ])))
             , H.img ! A.src "figures/many-many.svg"
+            , H.h2 "Improvements"
+            , H.p ("The purpose of this library is to generate okay-looking bar plots for you without much effort on your part. The style of the plots may change in newer releases as we find ways to make them look nicer. If happy-hour generates a plot for you that is not aesthetically pleasing, please " <> linkToIssues "let us know" <> " so that we may improve.")
             ])
         )
       ])
@@ -101,6 +103,9 @@ indexHtml =
         config =
           C.compact { Clay.Render.lbrace = mempty
                     , Clay.Render.rbrace = mempty }
+
+    linkToGitHub = H.a ! A.href "https://github.com/typeclasses/happy-hour/"
+    linkToIssues = H.a ! A.href "https://github.com/typeclasses/happy-hour/issues"
 
 style :: Css
 style =
