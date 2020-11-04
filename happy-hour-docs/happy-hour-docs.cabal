@@ -29,7 +29,7 @@ executable happy-hour-docs
 
     build-depends:
         async ^>= 2.2.1
-      , base ^>= 4.12.0.0
+      , base ^>= 4.12 || ^>= 4.13
       , blaze-html ^>= 0.9.1.1
       , blaze-markup ^>= 0.8.2.2
       , bytestring ^>= 0.10.8.2
