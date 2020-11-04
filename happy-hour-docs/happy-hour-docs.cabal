@@ -10,7 +10,7 @@ description:
     The generated files are included in the "docs" directory
     in the source repository and hosted via GitHub Pages.
 
-tested-with: GHC==8.6.3
+tested-with: GHC==8.6.3, GHC==8.8.4
 
 copyright: 2019 Typeclass Consulting, LLC
 license: MIT
