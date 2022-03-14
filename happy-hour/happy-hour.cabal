@@ -16,7 +16,7 @@ tested-with: GHC==8.6.3, GHC==8.8.4
 
 extra-source-files: changelog.md
 
-copyright: 2019 Typeclass Consulting, LLC
+copyright: 2019 Mission Valley Software LLC
 license: MIT
 license-file: license.txt
 
