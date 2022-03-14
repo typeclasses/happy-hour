@@ -12,8 +12,6 @@ description:
     nicer. If happy-hour generates a plot for you that is not
     aesthetically pleasing, please let us know so that we may improve.
 
-tested-with: GHC==8.6.3, GHC==8.8.4
-
 extra-source-files: changelog.md
 
 copyright: 2019 Mission Valley Software LLC
