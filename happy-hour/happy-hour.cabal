@@ -32,6 +32,6 @@ library
         Graphics.HappyHour
 
     build-depends:
-        base ^>= 4.12 || ^>= 4.13 || ^>= 4.14
+        base ^>= 4.12 || ^>= 4.13 || ^>= 4.14 || ^>= 4.15
       , Chart ^>= 1.9
       , Chart-diagrams ^>= 1.9
