@@ -30,7 +30,7 @@ executable happy-hour-docs
       , base ^>= 4.12 || ^>= 4.13 || ^>= 4.14
       , blaze-html ^>= 0.9.1.1
       , blaze-markup ^>= 0.8.2.2
-      , bytestring ^>= 0.10.8.2
+      , bytestring ^>= 0.10.8.2 || ^>= 0.11
       , clay ^>= 0.13.1
       , happy-hour
       , text ^>= 1.2.3.1
