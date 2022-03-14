@@ -15,4 +15,3 @@ Added support for:
   - bytestring-0.11
   - base-4.14 (ghc 8.10)
   - base-4.15 (ghc 9.0)
-  - base-4.16 (ghc 9.2)
