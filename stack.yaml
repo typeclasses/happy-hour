@@ -1,5 +1,0 @@
-{ "resolver": "lts-16.20"
-, "packages": ["happy-hour", "happy-hour-docs"]
-, "extra-deps":
-    ["Chart-diagrams-1.9.3"]
-}
