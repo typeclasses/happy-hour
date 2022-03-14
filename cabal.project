@@ -1,1 +1,1 @@
-packages: happy-hour/happy-hour.cabal, happy-hour-docs/happy-hour-docs.cabal
+packages: happy-hour, happy-hour-docs
