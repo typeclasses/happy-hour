@@ -1,7 +1,7 @@
 cabal-version: 2.4
 
 name: happy-hour
-version: 0.0.0.2
+version: 0.0.0.3
 category: Graphics
 synopsis: Generate simple okay-looking bar plots without much effort
 
