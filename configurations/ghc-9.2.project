@@ -1,0 +1,4 @@
+packages: happy-hour, happy-hour-docs
+
+constraints:
+    base == 4.16.*
